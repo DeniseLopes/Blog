@@ -1,0 +1,20 @@
+{
+  "name": "blog-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-edge": "^2.0.1",
+    "express-fileupload": "^1.1.6-alpha.6",
+    "mongoose": "^5.7.11",
+    "startbootstrap-clean-blog": "^5.0.8"
+  }
+}
