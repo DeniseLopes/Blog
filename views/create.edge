@@ -1,13 +1,13 @@
 @layout('layouts.app')
  
 @section('content')
-<header class="masthead">
+<header class="masthead"style="background-image: url('img/newpost.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
-            <h1>Create New Post</h1>
+            <h1>Nova Postagem</h1>
           </div>
         </div>
       </div>
@@ -21,32 +21,32 @@
           <div class="control-group">
               <div class="form-group floating-label-form-group controls">
                 <label>Username</label>
-                <input type="text" name="username" placeholder="Username" class="form-control">
+                <input type="text" name="username" placeholder="Nick" class="form-control">
               </div>
             </div>
           <div class="control-group">
             <div class="form-group floating-label-form-group controls">
               <label>Title</label>
-              <input type="text" name="title" placeholder="Title" class="form-control">
+              <input type="text" name="title" placeholder="Título" class="form-control">
             </div>
           </div>
           <div class="control-group">
             <div class="form-group floating-label-form-group controls">
               <label>Description</label>
-              <input type="text" name="description" placeholder="Description" class="form-control">
+              <input type="text" name="description" placeholder="Descrição" class="form-control">
             </div>
           </div>
           <div class="control-group">
             <div class="form-group floating-label-form-group controls">
               <label>Content</label>
-              <textarea name="content" placeholder="Content ..." cols="30" rows="10" class="form-control"></textarea>
+              <textarea name="content" placeholder="Escreva aqui ..." cols="30" rows="10" class="form-control"></textarea>
             </div>
           </div>
           <div class="form-group mt-3">
               <input type="file" name="image" class="form-control-file">
           </div>
           <div class="form-group my-4 text-center">
-            <button class="btn btn-primary">Create Post</button>
+            <button class="btn btn-primary rounded">Create Post</button>
           </div>
         </form>
       </div>
